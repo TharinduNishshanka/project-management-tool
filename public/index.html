@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Project Management Tool</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <button id="create-project-btn">Create New Project</button>
+            <div id="projects-list"></div>
+        </section>
+
+        <section id="tasks">
+            <h2>Tasks</h2>
+            <button id="create-task-btn">Create New Task</button>
+            <div id="tasks-list"></div>
+        </section>
+
+        <section id="comments">
+            <h2>Comments</h2>
+            <div id="comments-list"></div>
+            <textarea id="new-comment" placeholder="Add a comment..."></textarea>
+            <button id="add-comment-btn">Add Comment</button>
+        </section>
+    </main>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
